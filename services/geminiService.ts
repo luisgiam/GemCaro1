@@ -2,8 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Entry } from "../types";
 
 // Using process.env.API_KEY as per instructions
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
-const ai = new GoogleGenAI({ apiKey });
+const apiKey = "AIzaSyAYOtJVLAGVBc_ABdWD6vR3o...";
 
 export const GeminiService = {
   /**
