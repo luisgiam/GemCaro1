@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Entry } from "../types";
 
 // Using process.env.API_KEY as per instructions
-const apiKey = "AIzaSyAYOtJVLAGVBc_ABdWD6vR3o...";
+const apiKey = "AIzaSyAYOtJVLAGVBc_ABdWD6vR3o4QSxYL5Euo";
 const ai = new GoogleGenAI({ apiKey });
 export const GeminiService = {
   /**
