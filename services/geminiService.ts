@@ -3,7 +3,7 @@ import { Entry } from "../types";
 
 // Using process.env.API_KEY as per instructions
 const apiKey = "AIzaSyAYOtJVLAGVBc_ABdWD6vR3o...";
-
+const ai = new GoogleGenAI({ apiKey });
 export const GeminiService = {
   /**
    * Analyzes a specific entry to provide somatic coaching feedback.
